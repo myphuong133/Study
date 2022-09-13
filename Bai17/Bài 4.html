@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 4</title>
+</head>
+<body>
+<script>
+  let a = + prompt("nhập a")
+  let b = + prompt("nhập b")
+  let c = + prompt("nhập c")
+  switch (a>b) {
+    case true :
+      switch (a>c) {
+        case true : alert( 'a lớn nhất')
+        case false: alert( 'c lớn nhất')
+      }
+    case false:
+      switch (b>c) {
+        case true :
+          alert('b lớn nhất')
+        case false:
+          alert('c lớn nhất')
+
+      }
+  }
+</script>
+</body>
+</html>

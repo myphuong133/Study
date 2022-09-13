@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 5</title>
+</head>
+<body>
+<script>
+let kt = + prompt("nhập điểm kiểm tra")
+let hk = + prompt("nhập điểm thi học kỳ")
+let ck = + prompt("nhập điểm thi cuối kỳ")
+
+    let b = hk*2
+    let c = ck*3
+    let a = parseInt(kt + b + c)/6
+  switch (a >= 5) {
+      case true :
+          if (a>=7) {
+              if (a >= 9) {alert("Tier A")}
+              else {alert('Tier B')}
+          }  else alert('Tier C')
+             break;
+      case false : alert('Tier F')
+}
+</script>
+
+
+    </body>
+</html>
