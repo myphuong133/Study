@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai2</title>
+</head>
+<body>
+<input type="number" placeholder="nhập a" id="nhapa" >
+<input type="button" id="ketqua" onclick="myfuntion()">
+ <script>
+   function myfuntion() {
+     let a = document.getElementById('nhapa').value;
+     let sum = 0
+     if (a>0) {
+       for (i=1;i<=a;i++) {
+         sum += i
+       } alert(sum)
+
+     } else alert('nhập lại 1 số lớn hơn 0')
+
+   }
+ </script>
+</body>
+</html>
