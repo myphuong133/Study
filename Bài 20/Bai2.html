@@ -6,11 +6,13 @@
 </head>
 <body>
  <script>
-   let i=1;
-   while (i < 100) {
-     document.write("<hr width='" + i + "%'>" );
-     i++
+   let i= null;
+   do {
+     i = prompt("nhập vào 1 số từ 1 --> 10");
+
    }
+   while ( i<1 || i > 10)
+   alert("so ban vua nhp la " + i)
    </script>
 
 </body>
