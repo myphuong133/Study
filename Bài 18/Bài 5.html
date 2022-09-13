@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 5</title>
+</head>
+<body>
+<script>
+  let a = + prompt('hãy nhập a của pt bậc 2: a(x^2) + bx + c = 0')
+  let b = + prompt('hãy nhập b của pt bậc 2: a(x^2) + bx + c = 0')
+  let c = + prompt('hãy nhập c của pt bậc 2: a(x^2) + bx + c = 0')
+
+  let delta = b*b - 4*a*c
+  if (delta >= 0 ) {
+    let x1 = (b + Math.sqrt(delta))/2*a
+    let x2 = (b - Math.sqrt(delta))/2*a
+    alert(x1,x2)
+  }
+  else alert('vô nghiệm')
+
+</script>
+
+</body>
+</html>
